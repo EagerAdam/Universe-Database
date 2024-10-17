@@ -53,3 +53,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 pwd
 psql --username=freecodecamp --dbname=postgres
+git init
+git add .
